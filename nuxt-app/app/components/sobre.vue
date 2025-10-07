@@ -1,6 +1,6 @@
 <template>
 
-    <div class="pa-4 text-center h-100">
+    <div class="pa-4 text-center">
         <v-avatar class="avatar" :image="imagem" size="200"></v-avatar>
         <h1 id="animacao-titulo"></h1>
         <p class="sobre" id="animacao-texto"></p>
@@ -393,4 +393,3 @@ strong:hover {
     }
 }
 </style>
-

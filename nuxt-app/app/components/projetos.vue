@@ -132,7 +132,7 @@ const projetos = ref([
        { nome: 'HTML', cor: 'orange', icone: 'mdi-language-html5' },
        { nome: 'JS', cor: 'yellow', icone: 'mdi-language-javascript'}
     ],
-    icone: 'mdi-nuxt',
+    icone: 'mdi-calculator',
     github: 'https://github.com/Matheus-Lino/Calculadora-IMC',
     demo: null
   },
