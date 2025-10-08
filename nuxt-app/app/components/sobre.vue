@@ -7,9 +7,6 @@
         <v-dialog max-width="900">
             <template v-slot:activator="{ props: activatorProps }">
                 <v-btn id="botao-sobremim" v-bind="activatorProps" text="Sobre mim"></v-btn>
-                <a href="../assets/Curriculo-Matheus-Atualizado.pdf" download style="margin-left: 15px; text-decoration: none;">
-                    <v-btn id="botao-sobremim" text="Download CV"></v-btn>
-                </a>
             </template>
 
             <template v-slot:default="{ isActive }">
