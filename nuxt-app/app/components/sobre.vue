@@ -7,6 +7,9 @@
         <v-dialog max-width="900">
             <template v-slot:activator="{ props: activatorProps }">
                 <v-btn id="botao-sobremim" v-bind="activatorProps" text="Sobre mim"></v-btn>
+                <a href="../assets/Curriculo-Matheus-Atualizado.pdf" download style="margin-left: 15px; text-decoration: none;">
+                    <v-btn id="botao-sobremim" text="Download CV"></v-btn>
+                </a>
             </template>
 
             <template v-slot:default="{ isActive }">
@@ -17,58 +20,79 @@
                                 <v-avatar :image="imagem" size="100" class="perfil-avatar-interno"></v-avatar>
                                 <h2 class="titulo">Matheus Lino</h2>
                                 <p class="introducao">
-                                    <strong>Desenvolvedor Full Stack</strong> formado em Análise e Desenvolvimento de Sistemas, possuo experiência na criação de aplicações web completas, abrangendo desde o front-end até o back-end.
+                                    <strong>Desenvolvedor Full Stack</strong> formado em Análise e Desenvolvimento de
+                                    Sistemas, possuo experiência na criação de aplicações web completas, abrangendo
+                                    desde o front-end até o back-end.
                                 </p>
                             </div>
 
                             <div class="secao">
                                 <h3 class="subtitulo">💼 Experiência Profissional</h3>
                                 <ul class="lista-custom">
-                                    <li><strong>Desenvolvedor Front-end na GRV Software</strong> (Maio/2024 - Abril/2025).
-                                        Atuei no desenvolvimento front-end de um sistema ERP <strong>IoT</strong>, uma plataforma para integração de dispositivos inteligentes e monitoramento de dados em tempo real, utilizando Vue.js, Nuxt e TypeScript.</li>
-                                    <li>Responsável por desenvolver componentes reutilizáveis e escaláveis, implementar recursos interativos para otimizar a experiência do usuário e realizar integrações com APIs e back-end.</li>
-                                    <li>Trabalho em equipe, focando em usabilidade, performance e entregas ágeis, além de desenvolver consultas em <strong>SQL Server</strong> e lógica de programação para soluções full stack.</li>
-                                    <li>Experiência com versionamento de código (Git/GitHub) e metodologia ágil (Kanban).</li>
+                                    <li><strong>Desenvolvedor Front-end na GRV Software</strong> (Maio/2024 -
+                                        Abril/2025).
+                                        Atuei no desenvolvimento front-end de um sistema ERP <strong>IoT</strong>, uma
+                                        plataforma para integração de dispositivos inteligentes e monitoramento de dados
+                                        em tempo real, utilizando Vue.js, Nuxt e TypeScript.</li>
+                                    <li>Responsável por desenvolver componentes reutilizáveis e escaláveis, implementar
+                                        recursos interativos para otimizar a experiência do usuário e realizar
+                                        integrações com APIs e back-end.</li>
+                                    <li>Trabalho em equipe, focando em usabilidade, performance e entregas ágeis, além
+                                        de desenvolver consultas em <strong>SQL Server</strong> e lógica de programação
+                                        para soluções full stack.</li>
+                                    <li>Experiência com versionamento de código (Git/GitHub) e metodologia ágil
+                                        (Kanban).</li>
                                 </ul>
                             </div>
 
                             <div class="secao">
                                 <h3 class="subtitulo">🎓 Educação</h3>
                                 <ul class="lista-custom">
-                                    <li><strong>Tecnólogo em Análise e Desenvolvimento de Sistemas</strong> - Universidade Paulista (UNIP) (2023 - 2025).</li>
-                                    <li><strong>Ensino Médio Completo</strong> - E.E Professor João Lourenço Rodrigues (2018 - 2020).</li>
+                                    <li><strong>Tecnólogo em Análise e Desenvolvimento de Sistemas</strong> -
+                                        Universidade Paulista (UNIP) (2023 - 2025).</li>
+                                    <li><strong>Ensino Médio Completo</strong> - E.E Professor João Lourenço Rodrigues
+                                        (2018 - 2020).</li>
                                 </ul>
                             </div>
 
                             <div class="secao">
                                 <h3 class="subtitulo">🚀 Habilidades Técnicas (Hard Skills)</h3>
                                 <ul class="lista-custom">
-                                    <li><strong>Front-end:</strong> HTML5, CSS3, JavaScript (ES6+), Vue.js, Nuxt.js, TypeScript (básico).</li>
+                                    <li><strong>Front-end:</strong> HTML5, CSS3, JavaScript (ES6+), Vue.js, Nuxt.js,
+                                        TypeScript (básico).</li>
                                     <li><strong>Back-end:</strong> Node.js, Python.</li>
                                     <li><strong>Banco de Dados:</strong> SQL Server.</li>
-                                    <li><strong>Ferramentas e Práticas:</strong> Git, GitHub, VS Code, Figma, UX/UI Design, Web Performance, Acessibilidade.</li>
+                                    <li><strong>Ferramentas e Práticas:</strong> Git, GitHub, VS Code, Figma, UX/UI
+                                        Design, Web Performance, Acessibilidade.</li>
                                 </ul>
                             </div>
 
                             <div class="secao">
                                 <h3 class="subtitulo">💡 Habilidades Comportamentais (Soft Skills)</h3>
                                 <ul class="lista-custom">
-                                    <li>Trabalho em equipe, Comunicação clara e objetiva, Resiliência e adaptabilidade a mudanças, Organização e atenção aos detalhes, Aprendizado Contínuo e Proatividade.</li>
+                                    <li>Trabalho em equipe, Comunicação clara e objetiva, Resiliência e adaptabilidade a
+                                        mudanças, Organização e atenção aos detalhes, Aprendizado Contínuo e
+                                        Proatividade.</li>
                                 </ul>
                             </div>
 
                             <div class="secao">
                                 <h3 class="subtitulo">🏆 Certificações</h3>
                                 <ul class="lista-custom">
-                                    <li><strong>Rocketseat:</strong> NLW Unite - Csharp, NLW Unite - Reactjs, NLW Expert trilha de HTML, CSS e Javascript, Discover, Conectar.</li>
-                                    <li><strong>Nube:</strong> Mercado de Trabalho e Processo Seletivo: como enfrentá-los?.</li>
+                                    <li><strong>Rocketseat:</strong> NLW Unite - Csharp, NLW Unite - Reactjs, NLW Expert
+                                        trilha de HTML, CSS e Javascript, Discover, Conectar.</li>
+                                    <li><strong>Nube:</strong> Mercado de Trabalho e Processo Seletivo: como
+                                        enfrentá-los?.</li>
                                 </ul>
                             </div>
 
                             <div class="secao objetivo-secao">
                                 <h3 class="subtitulo">🎯 Objetivo</h3>
                                 <p class="objetivo-texto">
-                                  Busco integrar-me a uma equipe como Desenvolvedor Front-end, aplicando minhas experiências em HTML, CSS, JavaScript e, especialmente, no desenvolvimento de interfaces dinâmicas com Vue.js. Meu foco é entregar soluções de alta qualidade que aprimorem a experiência do usuário e a performance da aplicação. 
+                                    Busco integrar-me a uma equipe como Desenvolvedor Front-end, aplicando minhas
+                                    experiências em HTML, CSS, JavaScript e, especialmente, no desenvolvimento de
+                                    interfaces dinâmicas com Vue.js. Meu foco é entregar soluções de alta qualidade que
+                                    aprimorem a experiência do usuário e a performance da aplicação.
                                 </p>
                             </div>
                         </div>
@@ -164,7 +188,7 @@ h1 {
     background: linear-gradient(135deg, rgba(63, 0, 71, 0.4), rgba(106, 27, 154, 0.4));
     border-radius: 25px;
     font-family: "Bitcount Single Ink", system-ui;
-    font-size: 16px;
+    font-size: 20px;
     color: white;
     padding: 12px 24px;
     box-shadow: 0 4px 15px rgba(63, 0, 71, 0.3);
